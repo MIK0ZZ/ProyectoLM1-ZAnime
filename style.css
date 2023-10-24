@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #e6fce6;
+}
+hr {
+    color: #575757;
+    width: 80%;
+    opacity: 0.3;
+    border-radius: 4px;
+}
+
+.homepage__header {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.homepage__header__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    width: 75px;
+}
+
+.homepage__header__logo input[type=text] {
+    margin-top: 0.8vw;
+    display: flex;
+    position: relative;
+    height: 45px;
+}
+
+.homepage__header__title {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    font-size: 38px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    right: 12px;
+    
+}
+
+.homepage__header__topics {
+    margin-top: 0vw;
+    padding-right: 7vw;
+    display: flex;
+
+}
+
+.homepage__header__topics__son {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-left: 0.2vw;
+    padding-right: 2vw;
+    font-size: 22px;
+    margin: auto;
+    right: 12px;
+}
+
+.homepage__header__topics__son2 {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-right: 2vw;
+    padding-top: 0.3vw;
+    font-size: 22px;
+    margin: auto;
+    right: 12px;
+    
+}
+
+.homepage__spotlight {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-around;
+    display:flex;
+    position: relative;
+
+}
+.homepage__spotlight img {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    border: #37911c;
+    border-width: 4px;
+    border-style:groove;
+    
+}
+
+.homepage__spotlight__son {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-top: 2vw;
+    font-size: 84px;
+    margin: auto;
+    padding-left: 10vw;
+    
+}
+
+.homepage__spotlight__title {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+    
+}
+
+.homepage__spotlight__title__son {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    font-size: 22px;
+    justify-content: space-around;
+    display:flex;
+    position: relative;
+}
+
+.homepage__seasonT {
+    width: 80.1vw;
+    margin-left: 10vw;
+    margin-right: 11.65vw;
+    display: flex;
+
+}
+
+.homepage__seasonT img {
+    width: 92px;
+    
+    
+
+}
+
+.homepage__seasonT__p {
+    padding-top: 1vw;
+    width: 400px;
+}
+
+.homepage__seasonT__p__son {
+    font-size: 11px;
+    color: #575757 ;
+}
+
+
+
+.homepage__seasonT__son {
+    color: #141414;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-top: 2vw;
+    font-size: 62px;
+    margin: auto;
+    padding-left: 10vw;
+}
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url("Rubik-Light.ttf");
+}
