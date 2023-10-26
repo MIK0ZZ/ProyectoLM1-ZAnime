@@ -16,21 +16,26 @@ hr {
 .homepage__header {
     display: flex;
     justify-content: space-between;
-    height: 75px;
+    height: 5vw;
 }
 
 .homepage__header__logo {
     display: flex;
     justify-content: space-between;
     padding-left: 10vw;
-    width: 75px;
+    width: 5vw;
+}
+
+.homepage__header__logo img {
+    height: 5vw;
+    width: 5vw;
 }
 
 .homepage__header__logo input[type=text] {
-    margin-top: 0.8vw;
+    margin-top: 1.5vw;
     display: flex;
     position: relative;
-    height: 45px;
+    height: 2vw;
 }
 
 .homepage__header__title {
@@ -41,8 +46,8 @@ hr {
     position: relative;
     display: flex;
     margin: auto;
-    padding: 10px 20px;
-    right: 12px;
+    padding-left: 1.2vw;
+    right: 1vw;
     
 }
 
@@ -61,7 +66,7 @@ hr {
     padding-right: 2vw;
     font-size: 22px;
     margin: auto;
-    right: 12px;
+    right: 1vw;
 }
 
 .homepage__header__topics__son2 {
@@ -72,7 +77,7 @@ hr {
     padding-top: 0.3vw;
     font-size: 22px;
     margin: auto;
-    right: 12px;
+    right: 1vw;
     
 }
 
@@ -130,25 +135,6 @@ hr {
 
 }
 
-.homepage__seasonT img {
-    width: 92px;
-    
-    
-
-}
-
-.homepage__seasonT__p {
-    padding-top: 1vw;
-    width: 400px;
-}
-
-.homepage__seasonT__p__son {
-    font-size: 11px;
-    color: #575757 ;
-}
-
-
-
 .homepage__seasonT__son {
     color: #141414;
     text-decoration: none;
@@ -157,6 +143,44 @@ hr {
     font-size: 62px;
     margin: auto;
     padding-left: 10vw;
+}
+
+.homepage__seasonT__gridbox {
+    margin-top: 1vw;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage__seasonT__gridbox__anime {
+    width: 30vw;
+    height: 8vw;
+    display: flex;
+}
+
+.homepage__seasonT__gridbox__anime__content {
+    width: 22vw;
+}
+
+.homepage__seasonT__gridbox__anime__content p {
+    color: #575757;
+    width: 22vw;
+    height: 4vw;
+    padding-top: 0.5vw;
+    padding-left: 0.2vw;
+}
+
+.homepage__seasonT__gridbox__anime__title {
+    width: 22vw;
+    height: 1vw;
+    padding-left: 0.2vw;
+}
+
+.homepage__seasonT__gridbox__anime img {
+    width: 5vw;
+    height: 5vw;
 }
 
 @font-face {
