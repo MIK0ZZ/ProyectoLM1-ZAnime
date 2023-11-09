@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #161616;
+}
+hr {
+    color: #c9c9c9;
+    width: 80%;
+    opacity: 0.3;
+    border-radius: 4px;
+}
+
+.homepage__header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+}
+
+.homepage__header__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    width: 5vw;
+}
+
+.homepage__header__logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+.homepage__header__logo input[type=text] {
+    margin-top: 1.5vw;
+    display: flex;
+    position: relative;
+    height: 2vw;
+}
+
+.homepage__header__title {
+    color: #c9c9c9;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    font-size: 38px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding-left: 1.2vw;
+    right: 1vw;
+    
+}
+
+.homepage__header__topics {
+    margin-top: 0vw;
+    padding-right: 7vw;
+    display: flex;
+
+}
+
+.homepage__header__topics__son {
+    color: #c9c9c9;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-left: 0.2vw;
+    padding-right: 2vw;
+    font-size: 22px;
+    margin: auto;
+    right: 1vw;
+}
+
+.homepage__header__topics__son2 {
+    color: #c9c9c9;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-right: 2vw;
+    padding-top: 0.3vw;
+    font-size: 22px;
+    margin: auto;
+    right: 1vw;
+    
+}
+
+
+.contenido {
+    margin-top: 25px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    
+}
+
+.contenido .foto img {
+    width: 420px;
+}
+
+.contenido .texto {
+    color: #c9c9c9;
+    padding-left: 2vw;
+    
+}
+
+.contenido .texto h3,h4 {
+    color: #49c249;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url("Rubik-Light.ttf");
+}

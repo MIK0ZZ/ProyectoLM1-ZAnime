@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: #e6fce6;
+    background-color: #161616;
 }
 hr {
-    color: #575757;
+    color: #c9c9c9;
     width: 80%;
     opacity: 0.3;
     border-radius: 4px;
@@ -39,7 +39,7 @@ hr {
 }
 
 .homepage__header__title {
-    color: #141414;
+    color: #c9c9c9;
     text-decoration: none;
     font-family: 'Rubik-Light';
     font-size: 38px;
@@ -59,7 +59,7 @@ hr {
 }
 
 .homepage__header__topics__son {
-    color: #141414;
+    color: #c9c9c9;
     text-decoration: none;
     font-family: 'Rubik-Light';
     padding-left: 0.2vw;
@@ -70,7 +70,7 @@ hr {
 }
 
 .homepage__header__topics__son2 {
-    color: #141414;
+    color: #a8a8a8;
     text-decoration: none;
     font-family: 'Rubik-Light';
     padding-right: 2vw;
@@ -93,14 +93,14 @@ hr {
     width: 400px;
     height: 600px;
     display: flex;
-    border: #37911c;
+    border: #49c249;
     border-width: 4px;
-    border-style:groove;
+    border-style: solid;
     
 }
 
 .homepage__spotlight__son {
-    color: #141414;
+    color: #c9c9c9;
     text-decoration: none;
     font-family: 'Rubik-Light';
     padding-top: 2vw;
@@ -118,7 +118,7 @@ hr {
 }
 
 .homepage__spotlight__title__son {
-    color: #141414;
+    color: #c9c9c9;
     text-decoration: none;
     font-family: 'Rubik-Light';
     font-size: 22px;
@@ -136,7 +136,7 @@ hr {
 }
 
 .homepage__seasonT__son {
-    color: #141414;
+    color: #c9c9c9;
     text-decoration: none;
     font-family: 'Rubik-Light';
     padding-top: 2vw;
@@ -165,7 +165,7 @@ hr {
 }
 
 .homepage__seasonT__gridbox__anime__content p {
-    color: #575757;
+    color: #727272;
     width: 22vw;
     height: 4vw;
     padding-top: 0.5vw;
@@ -173,6 +173,7 @@ hr {
 }
 
 .homepage__seasonT__gridbox__anime__title {
+    color: #c9c9c9;
     width: 22vw;
     height: 1vw;
     padding-left: 0.2vw;
@@ -181,6 +182,9 @@ hr {
 .homepage__seasonT__gridbox__anime img {
     width: 5vw;
     height: 5vw;
+    border: #49c249;
+    border-width: 2px;
+    border-style: solid;
 }
 
 @font-face {
