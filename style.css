@@ -81,6 +81,14 @@ hr {
     
 }
 
+.anuncio {
+    height: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: #c9c9c9;
+    font-size: 22px;
+}
+
 .homepage__spotlight {
     margin-left: 10vw;
     margin-right: 10vw;
