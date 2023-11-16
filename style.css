@@ -118,6 +118,8 @@ hr {
     
 }
 
+
+
 .homepage__spotlight__title {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -133,6 +135,10 @@ hr {
     justify-content: space-around;
     display:flex;
     position: relative;
+}
+
+.homepage__spotlight__title__son h2{
+    text-decoration: none;
 }
 
 .homepage__seasonT {
@@ -156,16 +162,18 @@ hr {
 .homepage__seasonT__gridbox {
     margin-top: 1vw;
     margin-left: 10vw;
-    width: 80vw;
-    height: 10vw;
-    display: flex;
+    margin-right: 10vw ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-content: space-between;
 }
 
 .homepage__seasonT__gridbox__anime {
-    width: 30vw;
+    width: 27vw;
     height: 8vw;
     display: flex;
+    align-items: center;
 }
 
 .homepage__seasonT__gridbox__anime__content {

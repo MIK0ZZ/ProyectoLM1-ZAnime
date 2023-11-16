@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #161616;
+}
+hr {
+    color: #c9c9c9;
+    width: 80%;
+    opacity: 0.3;
+    border-radius: 4px;
+}
+
+.homepage__header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+}
+
+.homepage__header__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    width: 5vw;
+}
+
+.homepage__header__logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+.homepage__header__logo input[type=text] {
+    margin-top: 1.5vw;
+    display: flex;
+    position: relative;
+    height: 2vw;
+}
+
+.homepage__header__title {
+    color: #c9c9c9;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    font-size: 38px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding-left: 1.2vw;
+    right: 1vw;
+    
+}
+
+.homepage__header__topics {
+    margin-top: 0vw;
+    padding-right: 7vw;
+    display: flex;
+
+}
+
+.homepage__header__topics__son {
+    color: #c9c9c9;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-left: 0.2vw;
+    padding-right: 2vw;
+    font-size: 22px;
+    margin: auto;
+    right: 1vw;
+}
+
+.homepage__header__topics__son2 {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-family: 'Rubik-Light';
+    padding-right: 2vw;
+    padding-top: 0.3vw;
+    font-size: 22px;
+    margin: auto;
+    right: 1vw;
+    
+}
+
+.social {
+    margin: 2vw 10vw 0 10vw;
+}
+
+.social h1 {
+    color: #49c249;
+    font-family: 'Rubik-Light';
+}
+
+.social p {
+    color: #c9c9c9;
+    font-family: 'Rubik-Light';
+    font-size: 21px;
+}
+
+.colab {
+    margin: 2vw 10vw 0 10vw;
+}
+
+.colab h1 {
+    color: #49c249;
+    font-family: 'Rubik-Light';
+    
+}
+
+.container {
+    margin-top: 10vw;
+    margin: auto;
+    width: 300px;
+    padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit; /*hereda el ancho de su nodo padre*/
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li h4 {
+    color: #49c249;
+    font-family: 'Rubik-Light';
+    font-size: 42px;
+
+}
+
+ul.slider li img {
+    width: 150px;
+    object-fit: cover; /* Ajustar imagen dentro del contenedor, si no tiene la misma relación
+    de aspecto podrá recortar la imagen */
+}
+
+ul.slider li:first-child {
+    opacity: 0;
+    /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #161616;
+    text-decoration: none;
+    background-color: #49c249;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url("Rubik-Light.ttf");
+}
