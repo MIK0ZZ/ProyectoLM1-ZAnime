@@ -10,7 +10,7 @@ ________                                             __                .__      
 
 Este es el proyecto de Beltrán "ZMiK0" González Martos para el primer trimestre de la clase de Lenguaje de Marcas del grado de formación profesional DAM
 
-Consiste en una página parecida a myAminelist donde puedes buscar, guardar y comprar diferentes categorías de anime.
+Consiste en una página parecida a myAminelist donde puedes buscar diferentes categorías de anime.
 Consiste en una estética "ZAperture" 
 
 
